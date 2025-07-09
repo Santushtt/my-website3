@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elite Fashion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Elite Fashion</div>
+    <nav>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Collection</a></li>
+        <li><a href="#testimonial">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Luxury Meets Comfort</h1>
+      <p>Redefining your wardrobe with timeless elegance</p>
+      <button>Explore Now</button>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>New Arrivals</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://media.istockphoto.com/id/2184518766/photo/diverse-group-of-trendy-friends-in-urban-setting-exuding-style-and-confidence.webp?s=1024x1024&w=is&k=20&c=joyhV0IgXdVah-9gTVKPo11AZQOCw9uR_I1LLErnhOY=" alt="Dress">
+        <h3>Summer Dress</h3>
+        <p>₹2,999</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1509755512670-9e7af886e7e9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3VtbWVyJTIwZHJlc3N8ZW58MHx8MHx8fDA%3D" alt="Jacket">
+        <h3>Womens</h3>
+        <p>₹5,499</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1554062614-6da4fa67725a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNob2VzJTIwaGVlbHN8ZW58MHx8MHx8fDA%3D" alt="Shoes">
+        <h3>Designer Heels</h3>
+        <p>₹3,799</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <div class="testimonial-box">“Elite Fashion never disappoints. Their designs are top-notch!”</div>
+      <div class="testimonial-box">“Customer service and delivery is always flawless.”</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elite Fashion. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <button id="scrollTop" onclick="scrollToTop()">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
